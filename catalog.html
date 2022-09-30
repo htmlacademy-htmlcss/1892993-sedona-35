@@ -52,23 +52,111 @@
             Wi-Fi
           </label>
         </fieldset>
-<fieldset class="catalog-filter-group">
-        <legend class="catalog-filter-title">Тип жилья:</legend>
-        <label class="control">
-          <input class="control-input" type="checkbox" name="Hotel" checked>
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Тип жилья:</legend>
+          <label class="control">
+            <input class="control-input" type="checkbox" name="Hotel" checked>
           Гостиница
-        </label>
-        <label class="control">
-          <input class="control-input" type="checkbox" name="Motel">
-          Мотель
-        </label>
-        <label class="control">
-          <input class="control-input" type="checkbox" name="Apartments">
-          Апартаменты
-        </label>
+          </label>
+          <label class="control">
+            <input class="control-input" type="checkbox" name="Motel">
+              Мотель
+          </label>
+          <label class="control">
+            <input class="control-input" type="checkbox" name="Apartments">
+            Апартаменты
+          </label>
       </fieldset>
       </header>
+      <b>Найдено гостиниц: 38</b>
+      <select name="hotel-selection" id="">
+        <select class="select-control" aria-label="Сортировка">
+          <option value="cheap">Сначала дешёвое</option>
+          <option value="popular">Сначала популярное</option>
+          <option value="expensive">Сначала дорогое</option>
+        </select>
+        <a href="#" class="button button-light">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+<a class="button" href="#">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+        <aside>
+        <ul class="hostel-list">
+          <li class="hostel-card">
+            <a class="hostel-card-link" href="product.html">
+              <img class="hostel-card-image" src="" alt="">
+              <h3 class="hostel-card-title">Amara Resort & Spa</h3>
+            </a>
+            <span class="hostel-card-price">Гостиница</span>
+            <b class="hostel-card-price">От 4000 ₽</b>
+            <a class="hostel-card-button button" href="#">подробнее</a>
+            <a class="hostel-card-button button" href="#">в избранное</a>
+            <a class="hostel-card-button button" href="#">Рейтинг: 8,5</a>
+          </li>
+          <li class="hostel-card">
+            <a class="hostel-card-link" href="product.html">
+              <img class="hostel-card-image" src="" alt="">
+              <h3 class="hostel-card-title">Villas at Poco Diablo</h3>
+            </a>
+            <span class="hostel-card-price">Гостиница</span>
+            <b class="hostel-card-price">От 5000 ₽</b>
+            <a class="hostel-card-button button" href="#">подробнее</a>
+            <a class="hostel-card-button button" href="#">в избранном</a>
+            <a class="hostel-card-button button" href="#">Рейтинг: 9,2</a>
+          </li>
+          <li class="hostel-card">
+            <a class="hostel-card-link" href="product.html">
+              <img class="hostel-card-image" src="" alt="">
+              <h3 class="hostel-card-title">Desert Quail Inn</h3>
+            </a>
+            <span class="hostel-card-price">Гостиница</span>
+            <b class="hostel-card-price">От 2500 ₽</b>
+            <a class="hostel-card-button button" href="#">подробнее</a>
+            <a class="hostel-card-button button" href="#">в избранное</a>
+            <a class="hostel-card-button button" href="#">Рейтинг: 6,9</a>
+          </li>
+          <li class="hostel-card">
+            <a class="hostel-card-link" href="product.html">
+              <img class="hostel-card-image" src="" alt="">
+              <h3 class="hostel-card-title">GreenTree Inn</h3>
+            </a>
+            <span class="hostel-card-price">Гостиница</span>
+            <b class="hostel-card-price">От 1500 ₽</b>
+            <a class="hostel-card-button button" href="#">подробнее</a>
+            <a class="hostel-card-button button" href="#">в избранное</a>
+            <a class="hostel-card-button button" href="#">Рейтинг: 5,0</a>
+          </li>
+        </ul>
+        <ul class="pagination">
+          <li class="pagination-item">
+            <a class="pagination-link pagination-current">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">4</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">...</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">
+              <span class="visually-hidden">10</span>
+            </a>
+          </li>
+        </ul>
+        </aside>
     </main>
+    <section class="mailing-list">
+      <b class="mailing-list-item">Подпишитесь на рассылку</b>
+      <span class="mailing-list-item">Только полезная информация и никакого спама, честное бойскаутское!</span>
+      <a class="mailing-list-buttom" href="">Подписаться</a>
+    </section>
     <footer>
       <ul class="social-networks">
         <li class="icone">
