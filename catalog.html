@@ -16,7 +16,7 @@
           <a class="navigation-link" href="index.html">О седоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link-current" href="index.html">Гостиницы</a>
+          <a class="navigation-link-current navigation-link" href="index.html">Гостиницы</a>
         </li>
       </ul>
       <ul class="header-list">
@@ -51,7 +51,7 @@
             </li>
             <li class="infrastructure-form-item">
               <input class="visually-hidden filter-checkbox" type="checkbox" id="checkbox-parking" name="parking" checked>
-              <label class="checkbox-label" for="checkbox-pool" for="checkbox-parking">
+              <label class="checkbox-label" for="checkbox-parking">
                 Парковка
               </label>
             </li>
@@ -88,11 +88,7 @@
       </div>
       </section>
       <section class="search-engine">
-        <ul class="number-hotels">
-          <li class="number-hotels-item">
-            <p class="number-hotels-list">Найдено гостиниц: 38</p>
-          </li>
-        </ul>
+        <p class="number-hotels-list">Найдено гостиниц: 38</p>
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвое</option>
           <option value="popular">Сначала популярное</option>
@@ -225,10 +221,13 @@
         </ul>
         </section>
     </main>
-    <section class="mailing-list">
-      <b class="mailing-list-item">Подпишитесь на рассылку</b>
-      <span class="mailing-list-item">Только полезная информация и никакого спама, честное бойскаутское!</span>
-      <a class="mailing-list-buttom" href="#">Подписаться</a>
+    <section class="mailing">
+      <p class="mailing-title">Подпишитесь на рассылку</p>
+      <span class="mailing-info">Только полезная информация и никакого спама, честное бойскаутское!</span>
+      <form action="" class="mailing-buttom">
+        <input type="text">
+        <input type="submit" value="Подписаться">
+      </form>
     </section>
     <footer>
       <ul class="social-networks">
