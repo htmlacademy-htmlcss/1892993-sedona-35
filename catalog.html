@@ -6,7 +6,9 @@
   </head>
   <body>
     <header class="page-header">
-      <a href="#">Логотип</a>
+      <a href="#">
+        <img src="images/logo.svg" alt="Логотип" width="140" height="70.5">
+      </a>
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
@@ -16,15 +18,19 @@
           <a class="navigation-link" href="index.html">О седоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link-current" href="index.html">Гостиницы</a>
+          <a class="navigation-link-current navigation-link" href="index.html">Гостиницы</a>
         </li>
       </ul>
       <ul class="header-list">
         <li class="header-item">
-          <a class="header-link" href="#">Поиск</a>
+          <a class="header-link" href="#">
+            <img src="images/Search.svg" alt="Поиск" width="20" height="20">
+          </a>
         </li>
         <li class="header-item">
-          <a class="header-link" href="#">Избранное</a>
+          <a class="header-link" href="#">
+            <img src="images/heart.svg" alt="Избранное" width="20" height="20">
+          </a>
         </li>
         <li class="header-item">
           <a class="header-link" href="#">Хочу сюда!</a>
@@ -45,13 +51,13 @@
           <ul class="infrastructure-filter-list">
             <li class="infrastructure-filter-item">
               <input class="visually-hidden filter-checkbox" type="checkbox" id="checkbox-pool" name="swimming-pool" checked>
-              <label class="checkbox-label">
+              <label class="checkbox-label" for="checkbox-pool">
                 Бассейн
               </label>
             </li>
             <li class="infrastructure-form-item">
               <input class="visually-hidden filter-checkbox" type="checkbox" id="checkbox-parking" name="parking" checked>
-              <label class="checkbox-label" for="checkbox-pool" for="checkbox-parking">
+              <label class="checkbox-label" for="checkbox-parking">
                 Парковка
               </label>
             </li>
@@ -88,11 +94,7 @@
       </div>
       </section>
       <section class="search-engine">
-        <ul class="number-hotels">
-          <li class="number-hotels-item">
-            <p class="number-hotels-list">Найдено гостиниц: 38</p>
-          </li>
-        </ul>
+        <p class="number-hotels-list">Найдено гостиниц: 38</p>
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвое</option>
           <option value="popular">Сначала популярное</option>
@@ -112,7 +114,7 @@
         <section class="hostel-block">
         <ul class="hostel-list">
           <li class="hotels-list-item">
-            <img src="" width="135" height="90">
+            <img src="images/hotel-1.jpg" width="300" height="212" alt="AMARA RESORT & SPA">
             <div class="hotels-item-desc">
               <h3 class="hotels-item-title"><a href="#">AMARA RESORT & SPA</a></h3>
               <p class="hotels-item-price">
@@ -126,16 +128,24 @@
             </div>
             <div class="hotels-item-raiting">
               <ul class="raiting-stars-list">
-                <li class="raiting-stars-item"></li>
-                <li class="raiting-stars-item"></li>
-                <li class="raiting-stars-item"></li>
-                <li class="raiting-stars-item"></li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
               </ul>
               <span class="raiting-desc"> Рейтинг <output>8,5</output> </span>
             </div>
           </li>
           <li class="hotels-list-item">
-            <img src="" width="135" height="90">
+            <img src="images/hotel-2.jpg" width="300" height="212" alt="Villas at Poco Diablo">
             <div class="hotels-item-desc">
               <h3 class="hotels-item-title"><a href="#">Villas at Poco Diablo</a></h3>
               <p class="hotels-item-price">
@@ -149,16 +159,24 @@
             </div>
             <div class="hotels-item-raiting">
               <ul class="raiting-stars-list">
-                <li class="raiting-stars-item"></li>
-                <li class="raiting-stars-item"></li>
-                <li class="raiting-stars-item"></li>
-                <li class="raiting-stars-item"></li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
               </ul>
               <span class="raiting-desc"> Рейтинг <output>9,2</output> </span>
             </div>
           </li>
           <li class="hotels-list-item">
-            <img src="" width="135" height="90">
+            <img src="images/hotel-3.jpg" width="300" height="212" alt="Desert Quail Inn">
             <div class="hotels-item-desc">
               <h3 class="hotels-item-title"><a href="#">Desert Quail Inn</a></h3>
               <p class="hotels-item-price">
@@ -172,15 +190,21 @@
             </div>
             <div class="hotels-item-raiting">
               <ul class="raiting-stars-list">
-                <li class="raiting-stars-item"></li>
-                <li class="raiting-stars-item"></li>
-                <li class="raiting-stars-item"></li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
               </ul>
               <span class="raiting-desc"> Рейтинг <output>6,9</output> </span>
             </div>
           </li>
           <li class="hotels-list-item">
-            <img src="" width="135" height="90">
+            <img src="images/hotel-4.jpg" width="300" height="212" alt="GreenTree Inn">
             <div class="hotels-item-desc">
               <h3 class="hotels-item-title"><a href="#">GreenTree Inn</a></h3>
               <p class="hotels-item-price">
@@ -194,8 +218,12 @@
             </div>
             <div class="hotels-item-raiting">
               <ul class="raiting-stars-list">
-                <li class="raiting-stars-item"></li>
-                <li class="raiting-stars-item"></li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
+                <li class="raiting-stars-item">
+                  <img src="images/star.svg" alt="Звезда" width="18" height="17">
+                </li>
               </ul>
               <span class="raiting-desc"> Рейтинг <output>5,0</output> </span>
             </div>
@@ -225,25 +253,37 @@
         </ul>
         </section>
     </main>
-    <section class="mailing-list">
-      <b class="mailing-list-item">Подпишитесь на рассылку</b>
-      <span class="mailing-list-item">Только полезная информация и никакого спама, честное бойскаутское!</span>
-      <a class="mailing-list-buttom" href="#">Подписаться</a>
+    <section class="mailing">
+      <p class="mailing-title">Подпишитесь на рассылку</p>
+      <span class="mailing-info">Только полезная информация и никакого спама, честное бойскаутское!</span>
+      <form action="" class="mailing-buttom">
+        <input type="text">
+        <input type="submit" value="Подписаться">
+      </form>
     </section>
     <footer>
       <ul class="social-networks">
         <li class="icone">
-          <a class="vk" href="https://vk.com/htmlacademy">Вконтакте</a>
+          <a class="vk" href="https://vk.com/htmlacademy">
+            <img src="images/vk.svg" alt="vk" width="24" height="14">
+
+          </a>
         </li>
         <li class="icone">
-          <a href="https://t.me/htmlacademy" class="telegram">Телеграм</a>
+          <a href="https://t.me/htmlacademy" class="telegram">
+            <img src="images/telegram.svg" alt="telegram" width="18" height="16">
+          </a>
         </li>
         <li class="icone">
-          <a href="https://www.youtube.com/user/html" class="youtube">Ютуб</a>
+          <a href="https://www.youtube.com/user/html" class="youtube">
+            <img src="images/youtube.svg" alt="youtube" width="22" height="17">
+          </a>
         </li>
       </ul>
       <a  class="tel-academy" href=”tel:+78128121212”>+7(812)812-12-12</a>
-      <a  class="website-academy" href="https://htmlacademy.ru/">Иконка HML Academy</a>
+      <a  class="website-academy" href="https://htmlacademy.ru/">
+        <img src="images/HTML Academy.svg" alt="HTML Academy" width="114.9" height="32.9">
+      </a>
     </footer>
   </body>
 </html>
