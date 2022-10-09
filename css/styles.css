@@ -14,9 +14,10 @@
 }
 body{
   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
   color: #333333;
 }
 .page-header{
@@ -58,12 +59,14 @@ body{
   color: #000000;
   text-align: center;
   text-transform: uppercase;
+  background-color: #FFFFFF;
 }
 .advantages-introduction-description{
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   color: #333333;
+  background-color: #FFFFFF;
 }
 .advantages-title{
   font-weight:bold;
@@ -137,6 +140,9 @@ body{
  border-radius: 4px;
 }
 .mailing{
+  background-color: #FFFFFF;
+}
+.mailing-index{
   background-image: url("../images/background-mailing-llst.jpeg");
   background-color: #FFFFFF;
   color: #000000;
@@ -158,6 +164,15 @@ body{
   line-height: 26px;
   text-align: center;
   color: #FFFFFF;
+}
+.mailing-title.mailing-lead{
+  color: #000000;
+}
+.mailing-info.mailing-text{
+  color: #333333;
+}
+.social{
+  background-color: #FFFFFF;
 }
 .social-phone{
   font-size: 40px;
@@ -268,4 +283,10 @@ body{
 .raiting-desc{
   font-size: 16px;
   line-height: 20px;
+}
+.search-engine{
+  background-color: #FFFFFF;
+}
+.hostel-block{
+  background-color: #FFFFFF;
 }
