@@ -12,6 +12,9 @@
   src: url(../fonts/ptsans-700.woff2) format("woff2");
   font-display: swap;
 }
+html{
+  height: 100%;
+}
 body{
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
@@ -19,6 +22,19 @@ body{
   line-height: 21px;
   background-color: #F2F2F2;
   color: #333333;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 0px 40px;
+}
+.main-container {
+  flex-grow: 1;
+}
+.website-container{
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  width: 1200px;
 }
 .page-header{
   color: #000000;
@@ -28,7 +44,7 @@ body{
   color: #000000;
   font-size: 20px;
   line-height: 24px;
-  font-weight:bold;
+  font-weight: 700;
   text-align: left;
   text-decoration:none;
 }
@@ -38,7 +54,7 @@ body{
   color: #FFFFFF;
   font-size: 16px;
   line-height: 20px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -53,7 +69,7 @@ body{
   background-repeat: no-repeat;
 }
 .advantages-introduction{
-  font-weight:bold;
+  font-weight: 700;
   font-size: 30px;
   font-weight: 36px;
   color: #000000;
@@ -69,7 +85,7 @@ body{
   background-color: #FFFFFF;
 }
 .advantages-title{
-  font-weight:bold;
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
@@ -91,13 +107,10 @@ body{
 .advantages-item{
   background-color: rgba(131, 179, 211, 0.12);
 }
-.advantages-item:nth-child(1){
+.blue-block{
   background-color: #82B3D3;
   }
-.advantages-item:nth-child(5){
-  background-color: #82B3D3;
-  }
-.advantages-item:nth-child(3){
+.light-blue-block{
     background-color: rgba(131, 179, 211, 0.2);
   }
 .availability-title{
@@ -117,7 +130,7 @@ body{
   background-color: #FFFFFF;
 }
 .hotel-search-item{
-  font-weight:bold;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -130,7 +143,7 @@ body{
   text-align: center;
 }
 .hotel-search-buttom.btn{
- font-weight: bold;
+ font-weight: 700;
  font-size: 20px;
  line-height: 36px;
  color: #FFFFFF;
@@ -192,7 +205,7 @@ body{
 .title{
   font-size: 60px;
   line-height: 78px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .breadcrumb-link{
@@ -204,7 +217,7 @@ body{
 .catalog-filter-title{
   font-size: 20px;
   line-height: 24px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .checkbox-label{
   font-size: 18px;
@@ -217,14 +230,14 @@ body{
 .prime-item{
   font-size: 20px;
   line-height: 24px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .prime-buttom{
   width: 191px;
   height: 36px;
   font-size: 16px;
   line-height: 20px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   color: #FFFFFF;
@@ -234,7 +247,7 @@ body{
 .prime-link{
   color: #FFFFFF;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 20px;
   text-align: center;
   text-decoration: none;
@@ -242,13 +255,13 @@ body{
 }
 .number-hotels-list{
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 36px;
   color: #000000;
   text-transform: uppercase;
 }
 .hotels-link{
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
@@ -260,7 +273,7 @@ body{
 .excerpt{
   width: 140px;
   height: 36px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
@@ -289,4 +302,82 @@ body{
 }
 .hostel-block{
   background-color: #FFFFFF;
+}
+.navigation{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.navigation-list{
+  width: 339px;
+  margin: 0;
+  padding: 0;
+}
+.header-list{
+  width: 268px;
+  margin: 0;
+  margin-right: 44px;
+  margin-left: auto;
+  padding: 0;
+}
+.header-logo{
+  display: block;
+  margin: 0;
+  margin-left: 70px;
+  padding: 0;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
+}
+.advantages-list{
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.advantages-item{
+  width: 400px;
+  height: 384px;
+  margin: 0;
+  padding: 0;
+}
+.advantages-image{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.availability-choice{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+}
+.availability-list{
+  width: 400px;
+}
+.hotel-search-buttom{
+  display: block;
+  margin: 0 auto;
+}
+.social-footer{
+  display: flex;
+  width: 1060px;
+  padding: 0;
+  margin: 40px 70px 30px;
+}
+.social-list{
+ width: 142px;
+ margin-right: auto;
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+.social-phone{
+  display: block;
+  margin: 0 auto;
+}
+.social-link{
+  display: block;
+  margin-left: auto;
 }
