@@ -116,7 +116,6 @@ img {
   width: 500px;
   padding: 0;
   margin: 0;
-  padding-left: 20px;
 }
 
 .user-nav {
@@ -312,7 +311,6 @@ img {
 .btn-favorites-green:hover:not(:disabled) {
   background-color: var(--dark-green-color);
 }
-
 
 .btn-favorites-green:active:not(:disabled) {
   background-color: var(--green-color);
@@ -1107,7 +1105,6 @@ img {
   margin-bottom: 20px;
 }
 
-
 .catalog-sort {
   display: flex;
   align-items: center;
@@ -1400,7 +1397,6 @@ img {
 .area-error .area-message {
   display: block;
 }
-
 
 .popup-row {
   display: grid;
