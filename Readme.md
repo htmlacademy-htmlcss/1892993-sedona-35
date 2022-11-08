@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Богданов](https://up.htmlacademy.ru/htmlcss/35/user/1892993).
-* Наставник: [Артём Быков] (https://htmlacademy.ru/profile/nisvem).
+* Наставник: [Геннадий Максимов](https://htmlacademy.ru/profile/gennadiy).
 
 ---
 
