@@ -50,19 +50,14 @@ body {
   background-color: var(--additional-bg-color);
   color: var(--big-black-color);
   min-height: 100%;
-  min-width: 1280px;
+  min-width: 1200px;
   margin: 0;
   padding: 0;
 }
 
-
-a {
-  text-decoration: none;
-}
-
 img {
   max-width: 100%;
-  height: auto;
+  object-fit: contain;
 }
 
 .page {
@@ -151,6 +146,7 @@ img {
 .user-nav {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   flex-wrap: wrap;
   list-style-type: none;
   width: 400px;
@@ -160,16 +156,23 @@ img {
 
 .search {
   position: relative;
-  padding: 20px 12px;
-  right: 3px;
-  top: 8px;
+  display: block;
+  width: 44px;
+  height: 64px;
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .like {
   position: relative;
-  padding: 20px 12px;
-  right: 2px;
-  top: 10px;
+  display: block;
+  width: 44px;
+  height: 64px;
+  background-image: url("../images/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 22px 12px;
 }
 
 .number-like {
@@ -178,8 +181,8 @@ img {
   font-size: 10px;
   line-height: 10px;
   z-index: 1;
-  right: 3px;
-  top: 9px;
+  right: 4px;
+  top: 10px;
   color: var(--white-color);
   background-color: var(--green-color);
   border-radius: 10px;
@@ -296,7 +299,6 @@ img {
 }
 
 .btn-special-blue:focus:not(:disabled) {
-  outline: var(--blue-special-color);
   background-color: var(--blue-light-color);
 }
 
@@ -465,6 +467,30 @@ img {
   background-color: var(--white-color);
 }
 
+.advantage-card-small-img {
+  min-width: 75px;
+  min-height: 72px;
+}
+
+.food {
+  background-image: url("../images/food.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.house {
+  background-image: url("../images/house.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gift {
+  background-image: url("../images/gift.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 75px;
+}
+
 .advantage-card-title {
   font-weight: 700;
   font-size: 24px;
@@ -523,7 +549,7 @@ img {
 }
 
 .advantage-card-with-img .advantage-card-title {
-  margin-top: 25px;
+  margin-top: 28px;
   margin-bottom: 30px;
 }
 
@@ -677,10 +703,6 @@ img {
   fill: var(--blue-light-color);
 }
 
-.social-link:focus {
-  outline: none;
-}
-
 .social-link:focus path {
   fill: var(--blue-light-color);
 }
@@ -707,7 +729,6 @@ img {
 
 .footer-phone:focus {
   color: rgba(117, 97, 87, 0.3);
-  outline: none;
 }
 
 .footer-phone:active {
@@ -722,10 +743,6 @@ img {
 
 .footer-academy:hover path {
   fill: var(--brown-color);
-}
-
-.footer-academy:focus {
-  outline: none;
 }
 
 .footer-academy:focus path {
@@ -770,10 +787,6 @@ img {
 
 .breadcrumbs-link:hover {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.breadcrumbs-link:focus {
-  outline: none;
 }
 
 .breadcrumbs-link:active {
@@ -1288,7 +1301,7 @@ img {
 }
 
 .popup-active {
-  display: block;
+  display: none;
 }
 
 .popup-container {

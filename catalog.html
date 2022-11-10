@@ -11,7 +11,7 @@
     <div class="page-container">
       <header class="page-header header">
         <nav class="header-main-nav main-nav">
-          <a class="main-nav-logo" href="https://htmlacademy.ru">
+          <a class="main-nav-logo" href="index.html">
             <img src="images/logo.svg" alt="Логотип Седона" width="140" height="70">
           </a>
           <ul class="main-nav-list">
@@ -22,26 +22,16 @@
               <a class="main-nav-link" href="#nowhere">О Седоне</a>
             </li>
             <li class="main-nav-item">
-              <a class="main-nav-link main-nav-link-current" href="catalog.html">Гостиницы</a>
+              <a class="main-nav-link main-nav-link-current">Гостиницы</a>
             </li>
           </ul>
           <ul class="header-user-nav user-nav">
             <li class="user-nav-item">
-              <a class="search" href="#nowhere" aria-label="Поиск">
-                <svg width="20" height="20" fill="none" role="img" xmlns="http://www.w3.org/2000/svg">
-                  <path d="m19.5 18-3.7-3.7a8 8 0 0 0 1.7-4.8 8 8 0 1 0-3.1 6.3l3.7
-                   3.7 1.4-1.5Zm-10-2.5a6 6 0 0 1-6-6 6 6 0 0 1 12 0 6 6 0 0 1-6 6Z" fill="#000"/>
-                </svg>
-              </a>
+              <a class="search" href="#nowhere" aria-label="Поиск."></a>
             </li>
             <li class="user-nav-item">
-              <a class="like" href="#nowhere" aria-label="Нравится">
+              <a class="like" href="#nowhere" aria-label="Нравится.">
                 <span class="number-like">12</span>
-                <svg width="18" height="17" fill="none" role="img" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M8.9 17a.9.9 0 0 1-.8-.4c-5.4-6.1-6.7-7.5-7-7.9A5.4 5.4
-                   0 0 1 5.5 0C6.8 0 8 .5 9 1.3a5.46 5.46 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2
-                   0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z" fill="#000"/>
-                </svg>
               </a>
             </li>
             <li class="user-nav-item">
@@ -56,7 +46,7 @@
             <h1 class="catalog-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
               <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link breadcrumbs-link-home" href="index.html" aria-label="Главная"></a>
+                <a class="breadcrumbs-link breadcrumbs-link-home" href="index.html" aria-label="Главная."></a>
               </li>
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link">Гостиницы</a>
@@ -149,15 +139,15 @@
           <div class="catalog-sort sort">
             <p class="sort-title">Найдено гостиниц: 38</p>
             <div class= "select sorting-type">
-              <select class="select-control" aria-label="Сортировка">
+              <select class="select-control" aria-label="Сортировка.">
                 <option value="cheap">Сначала дешевые</option>
                 <option value="expensive">Сначала дорогое</option>
               </select>
             </div>
             <div class="sort-sorting">
-              <a class="sorting-item sorting-turn sorting-item-current" href="#nowhere" aria-label="Показать карточки"></a>
-              <a class="sorting-item sorting-singly" href="#nowhere" aria-label="Показать по штучно"></a>
-              <a class="sorting-item sorting-line" href="#nowhere" aria-label="Показать список"></a>
+              <a class="sorting-item sorting-turn sorting-item-current" href="#nowhere" aria-label="Показать карточки."></a>
+              <a class="sorting-item sorting-singly" href="#nowhere" aria-label="Показать по штучно."></a>
+              <a class="sorting-item sorting-line" href="#nowhere" aria-label="Показать список."></a>
             </div>
           </div>
           <ul class="catalog-list">
@@ -295,7 +285,8 @@
           <p class="newsletter-info newsletter-info-black">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form action="https://echo.htmlacademy.ru" class="newsletter-form" method="post">
             <div class="newsletter-form-wrapper">
-              <input class="email" type="email" placeholder="Ваш e-mail" name="e-mail" required>
+              <label class="visually-hidden" for="footer-email">Введите ваш e-mail</label>
+              <input class="email" type="email" placeholder="Ваш e-mail" name="e-mail" required id="footer-email">
               <button class="btn btn-subscribe btn-special-blue" type="submit">Подписаться</button>
             </div>
           </form>
@@ -336,7 +327,7 @@
           </ul>
           <a class="footer-phone" href=”tel:+78128121212”>+7 (812) 812-12-12</a>
           <a class="footer-academy" href="https://htmlacademy.ru/">
-            <svg width="115" height="34" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Сайт HTML Academy">
+            <svg width="115" height="34" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Сайт HTML Academy.">
               <path d="M0 13.3v2.6h2.5v-2.6H0ZM11.6 4.9c-1.6 0-2.8.7-3.6
               1.7h-.1V.4h-2v15.5h2v-5.3C7.9 8.5 9.2 7 11.2 7c1.8 0 2.9 1.4 2.9 3.2v5.7h2V9.8c.1-3-1.8-5-4.5-5ZM26.6 5.2h-4.8V1.5h-2v3.8h-1.9v2h1.9v6c0
               1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1V7.2h4.8v-2ZM41.1 5c-1.6 0-2.9.8-3.5 2h-.1a3.7 3.7 0 0 0-3.4-2c-1.4 0-2.5.8-3.1 1.8h-.1V5.2H29v10.6h2v-5.4c0-2

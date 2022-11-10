@@ -11,7 +11,7 @@
     <div class="page-container">
       <header class="page-header header">
         <nav class="header-main-nav main-nav">
-          <a class="main-nav-logo" href="https://htmlacademy.ru">
+          <a class="main-nav-logo" href="index.html">
             <img src="images/logo.svg" alt="Логотип Седона" width="140" height="70">
           </a>
           <ul class="main-nav-list">
@@ -27,21 +27,11 @@
           </ul>
           <ul class="header-user-nav user-nav">
             <li class="user-nav-item">
-              <a class="search" href="#nowhere" aria-label="Поиск">
-                <svg width="20" height="20" fill="none" role="img" xmlns="http://www.w3.org/2000/svg">
-                  <path d="m19.5 18-3.7-3.7a8 8 0 0 0 1.7-4.8 8 8 0 1 0-3.1 6.3l3.7
-                   3.7 1.4-1.5Zm-10-2.5a6 6 0 0 1-6-6 6 6 0 0 1 12 0 6 6 0 0 1-6 6Z" fill="#000"/>
-                </svg>
-              </a>
+              <a class="search" href="#nowhere" aria-label="Поиск."></a>
             </li>
             <li class="user-nav-item">
-              <a class="like" href="#nowhere" aria-label="Нравится">
+              <a class="like" href="#nowhere" aria-label="Нравится.">
                 <span class="number-like">12</span>
-                <svg width="18" height="17" fill="none" role="img" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M8.9 17a.9.9 0 0 1-.8-.4c-5.4-6.1-6.7-7.5-7-7.9A5.4 5.4
-                   0 0 1 5.5 0C6.8 0 8 .5 9 1.3a5.46 5.46 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2
-                   0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z" fill="#000"/>
-                </svg>
               </a>
             </li>
             <li class="user-nav-item">
@@ -105,27 +95,21 @@
               <ul class="advantages-inner-list">
                 <li class="advantages-item">
                   <div class="advantage-card advantage-card-with-img">
-                    <div class="advantage-card-small-img">
-                      <img src="images/house.svg" alt="Жильё" width="75" height="72">
-                    </div>
+                    <div class="advantage-card-small-img house"></div>
                     <h3 class="advantage-card-title">Жильё</h3>
                     <p class="advantage-card-text">Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино!</p>
                   </div>
                 </li>
                 <li class="advantages-item">
                   <div class="advantage-card advantage-card-with-img white-block">
-                    <div class="advantage-card-small-img">
-                      <img src="images/hamburner.svg" alt="Еда" width="75" height="72">
-                    </div>
+                    <div class="advantage-card-small-img food"></div>
                     <h3 class="advantage-card-title">Еда</h3>
                     <p class="advantage-card-text">Всегда заказывайте <br> топовый фирменный бургер, <br> вы не разочаруетесь!</p>
                   </div>
                 </li>
                 <li class="advantages-item">
                   <div class="advantage-card advantage-card-with-img">
-                    <div class="advantage-card-small-img">
-                      <img src="images/gift.svg" alt="Сувениры" width="75" height="72">
-                    </div>
+                    <div class="advantage-card-small-img gift"></div>
                     <h3 class="advantage-card-title">Сувениры</h3>
                     <p class="advantage-card-text">Не только китайского, <br> но и настоящего местного производства!</p>
                   </div>
@@ -146,7 +130,8 @@
           <p class="newsletter-info">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form action="https://echo.htmlacademy.ru" class="newsletter-form" method="post">
             <div class="newsletter-form-wrapper">
-              <input class="email" type="email" placeholder="Ваш e-mail" name="e-mail" required>
+              <label class="visually-hidden" for="footer-email">Введите ваш e-mail</label>
+              <input class="email" type="email" placeholder="Ваш e-mail" name="e-mail" required id="footer-email">
               <button class="btn btn-subscribe btn-special-blue" type="submit">Подписаться</button>
             </div>
           </form>
@@ -155,7 +140,7 @@
           <ul class="footer-social social">
             <li class="social-item">
               <a class="social-link" href="https://vk.com/htmlacademy">
-                <svg width="25" height="15" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Наш вконтакте">
+                <svg width="25" height="15" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Наш вконтакте.">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M24.12 1.8c.16-.54 0-.94-.8-.94H20.7c-.67
                     0-.98.34-1.15.73 0 0-1.33 3.2-3.22 5.27-.61.6-.9.8-1.23.8-.16 0-.41-.2-.41-.75v-5.1c0-.66-.19-.95-.74-.95H9.82c-.42 0-.67.3-.67.59 0 .62.95.76 1.04 2.51v3.8c0
                     .83-.15.98-.48.98-.9 0-3.06-3.2-4.34-6.88-.25-.72-.5-1-1.18-1H1.57c-.75 0-.9.34-.9.73 0 .68.89 4.07 4.14 8.55 2.17 3.06 5.23 4.72 8 4.72 1.68 0 1.88-.37
@@ -166,7 +151,7 @@
             </li>
             <li class="social-item">
               <a class="social-link" href="https://t.me/htmlacademy">
-                <svg width="48" height="41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Наш телеграм">
+                <svg width="48" height="41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Наш телеграм.">
                   <path d="m31.8 13-16 6.1c-1 .4-1 1-.2 1.3l4.1 1.3 9.5-6c.5-.3.9-.1.5.2l-7.6
                    7-.3 4.1c.4 0 .6-.2.8-.4l2-2 4.1 3.1c.8.5 1.3.3 1.5-.7L33 14.2c.3-1-.4-1.6-1.1-1.2Z" fill="#83B3D3"/>
                 </svg>
@@ -174,7 +159,7 @@
             </li>
             <li class="social-item">
               <a class="social-link" href="https://www.youtube.com/user/html">
-                <svg width="48" height="41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Наш ютуб">
+                <svg width="48" height="41" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Наш ютуб.">
                   <path d="M31.94 12.36H16.51c-1.86 0-3.18 1.59-3.18
                   3.4v10.09c0 1.91 1.32 3.5 3.18 3.5h15.65c1.64 0 3.17-1.59 3.17-3.4v-10.2c-.22-1.8-1.53-3.4-3.39-3.4ZM20.99
                   24.89v-8.07l7.34 4.04-7.34 4.03Z" fill="#83B3D3"/>
@@ -184,7 +169,7 @@
           </ul>
           <a class="footer-phone" href=”tel:+78128121212”>+7 (812) 812-12-12</a>
           <a class="footer-academy" href="https://htmlacademy.ru/">
-            <svg width="115" height="34" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Сайт HTML Academy">
+            <svg width="115" height="34" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Сайт HTML Academy.">
               <path d="M0 13.3v2.6h2.5v-2.6H0ZM11.6 4.9c-1.6 0-2.8.7-3.6
               1.7h-.1V.4h-2v15.5h2v-5.3C7.9 8.5 9.2 7 11.2 7c1.8 0 2.9 1.4 2.9 3.2v5.7h2V9.8c.1-3-1.8-5-4.5-5ZM26.6 5.2h-4.8V1.5h-2v3.8h-1.9v2h1.9v6c0
               1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1V7.2h4.8v-2ZM41.1 5c-1.6 0-2.9.8-3.5 2h-.1a3.7 3.7 0 0 0-3.4-2c-1.4 0-2.5.8-3.1 1.8h-.1V5.2H29v10.6h2v-5.4c0-2
@@ -213,7 +198,7 @@
               <label class="area-label" for="date-in">Дата Заезда:</label>
               <div class="area-wrapper area-arrival arrival-date">
                 <input class="area-input" type="text" id="date-in" placeholder="Укажите дату" value="27 апреля 2020">
-                <button class="area-calendar" type="button" aria-label="календарь">
+                <button class="area-calendar" type="button" aria-label="календарь.">
                   <svg width="16" height="15" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="календарь.">
                     <path d="M5.8 10c.3 0 .5-.2.5-.5S6 9 5.8 9c-.3 0-.5.2-.5.5s.2.5.5.5Z" fill="#000"/>
                     <path d="M15 2h-2V0h-1v2H4V0H3v2H1c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h14c.5 0 1-.5 1-1V3c0-.6-.5-1-1-1Zm0 12H1V7h14v7ZM1 6V3h2v2h1V3h8v2h1V3h2v3H1Z" fill="#000"/>
