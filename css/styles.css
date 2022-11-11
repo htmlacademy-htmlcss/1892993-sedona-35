@@ -475,20 +475,19 @@ img {
 .food {
   background-image: url("../images/food.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top 80px;
 }
 
 .house {
   background-image: url("../images/house.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top 80px;
 }
 
 .gift {
   background-image: url("../images/gift.svg");
   background-repeat: no-repeat;
-  background-position: center;
-  min-height: 75px;
+  background-position: center top 80px;
 }
 
 .advantage-card-title {
@@ -549,7 +548,7 @@ img {
 }
 
 .advantage-card-with-img .advantage-card-title {
-  margin-top: 28px;
+  margin-top: 102px;
   margin-bottom: 30px;
 }
 
